@@ -1,0 +1,26 @@
+{
+  "name": "alpaca-integration",
+  "version": "1.0.0",
+  "description": "Alpaca-ApI-Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trade-updates": "node trade-updates/index.js",
+    "market-data": "node market-data/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yash-dedania/alpaca-integration.git"
+  },
+  "author": "Yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yash-dedania/alpaca-integration/issues"
+  },
+  "homepage": "https://github.com/yash-dedania/alpaca-integration#readme",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.16.1",
+    "axios": "^0.27.2",
+    "better-sse": "^0.8.0"
+  }
+}
